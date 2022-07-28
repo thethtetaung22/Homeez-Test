@@ -119,8 +119,8 @@ const FloorPlan = () => {
                   getStructuredPolygon(plan)
                 )
               }
-            }
-            )
+              return <></>
+            })
           }
         </Layer>
       </Stage>

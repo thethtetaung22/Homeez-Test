@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import { Layer, Stage } from 'react-konva';
 import FloorPlan from './components/Floorplan/Floorplan';
 
 function App() {
