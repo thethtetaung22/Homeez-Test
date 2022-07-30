@@ -3,15 +3,23 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  min-width: 1000px;
   height: 100vh;
-  padding-top: 20px;
-  background-image: url('./assets/svgs/grid.svg');
-  background-repeat: repeat;
 }
 
 .stage-container {
   width: max-content;
   height: max-content;
   max-width: 1000px;
-  max-height: 810px;
+  max-height: 800px;
+  padding: 20px;
+  background-image: url('./assets/svgs/grid.svg');
+  background-repeat: repeat;
+}
+
+.button-container {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  column-gap: 10px;
 }

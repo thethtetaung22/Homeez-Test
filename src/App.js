@@ -24,8 +24,10 @@ const App = () => {
                     </Layer>
                 </Stage>
             </div>
-            <Button variant="contained" onClick={onLoadFurniture}>Load Furniture</Button>
-            <Button variant="contained" style={{ marginTop: '10px'}} onClick={() => setSelected(!isSelected)}>{ isSelected ? 'Finish Transform': 'Transform Furniture'}</Button>
+            <div className='button-container'>
+                <Button variant="contained" onClick={onLoadFurniture}>Load Furniture</Button>
+                <Button variant="contained" onClick={() => setSelected(!isSelected)}>{ isSelected ? 'Finish Transform': 'Transform Furniture'}</Button>
+            </div>
         </div>
     );
 }
