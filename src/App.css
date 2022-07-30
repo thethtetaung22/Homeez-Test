@@ -1,11 +1,17 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100vh;
+  padding-top: 20px;
   background-image: url('./assets/svgs/grid.svg');
   background-repeat: repeat;
 }
 
-.floor-plan {
-  width: auto;
-  height: auto;
+.stage-container {
+  width: max-content;
+  height: max-content;
+  max-width: 1000px;
+  max-height: 810px;
 }
